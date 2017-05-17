@@ -64,8 +64,6 @@
   'components/_ratings',
   'components/_blotter';
 
-
-
 // Pages
 // Page-specific styles, in a file named after the page.
 @import
@@ -75,5 +73,6 @@
   'pages/_settings', // User settings
   // 'pages/_characters-people',
   'pages/_trending',
+  'pages/_explore',
   'pages/_groups',
   'pages/_export.scss';
