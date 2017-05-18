@@ -22,11 +22,11 @@
           </div>
         {{/if}}
 
-        {{! Entry Airing Status}}
-        {{#if (not (eq media.airingStatus "finished"))}}
+        {{! Entry Airing/Publishing Status}}
+        {{#if (not (eq media.status "finished"))}}
           <div class="entry-indicator-airing-status d-inline-block">
             <span class="tag">
-              {{t (concat "media-shared.statuses." media.modelType "." media.airingStatus)}}
+              {{t (concat "media-shared.statuses." media.modelType "." media.status)}}
             </span>
           </div>
         {{/if}}
