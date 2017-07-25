@@ -41,12 +41,30 @@
         top: -2px;
       }
     }
+    .sidebar-github {
+      &:hover, &:focus {
+        fill: #4078c0;
+      }
+    }
+    .sidebar-twitter {
+      &:hover, &:focus {
+        fill: #1da1f2;
+      }
+    }
+    .sidebar-facebook {
+      &:hover, &:focus {
+        fill: #3b5998;
+      }
+    }
   }
   .footer-links {
     font-size: 12px;
     .site-link {
       margin-right: 5px;
       color: $body-text-color;
+    }
+    &:hover, &:focus {
+      color: $body-link-color;
     }
   }
 }
